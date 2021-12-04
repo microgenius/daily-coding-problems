@@ -85,7 +85,7 @@ public class Problem3 {
         return node;
     }
 
-    // root # left # left.left # NONE # NONE # NONE # right # NONE # NONE #
+    // left.left # NONE # NONE # NONE # right # NONE # NONE #
 
     public static Node deserialize(Queue<String> elementsOfTree) {
         if (elementsOfTree.peek() == null) {
